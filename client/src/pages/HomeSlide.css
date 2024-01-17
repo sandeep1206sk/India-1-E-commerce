@@ -1,0 +1,135 @@
+#home{
+    margin: 0px 0px 0px 0px;  
+    }
+    .home-2{
+      margin: 0px -11px 0px -11px;
+    }
+    #home-carousel-1{
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/shopping-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-smiling-looking-camera_1258-119094.jpg?w=826&t=st=1696183897~exp=1696184497~hmac=8cd48b7c43ced02b6bdb3d0463aee817f46bc5c7b9914896d0a1e3f2aeb4c5d0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    #home-carousel-1 h1{
+      margin-top: 7%;
+        font-size: 5em;
+        color: darkorange;
+    }
+    #home-carousel-1 p{
+      font-size: 2rem;
+      margin-bottom: 6%;
+    }
+    
+    #home-carousel-2{
+      background-image: url(https://static.vecteezy.com/system/resources/previews/016/759/209/non_2x/asian-woman-in-national-dress-of-chinese-new-year-holding-red-wood-fan-with-smiled-and-show-hand-to-present-and-your-product-in-soft-isolated-background-celebrated-in-attractive-culture-of-china-free-photo.JPG);
+    
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #best-deal{
+      background-color: rgb(255, 183, 2);
+      display: inline-block;
+      width: 200px;
+      height: 30px;
+      transform: rotate(135deg);
+      transform: skew(135deg);
+      color: red;
+      
+    }
+    #home-carousel-3{
+      background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-simple-trend-clothing-store-background-home-image_148028.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      align-items: center;
+    }
+    #home-carousel-3-1{
+      margin: 8% 8%;
+     justify-content: center;
+      text-align: center;
+      animation: c-3-border 7s infinite;
+     
+    }
+    @keyframes c-3-border{
+      1% {
+          border:5px solid rgb(248, 11, 11);
+      }
+    
+      20% {
+          border:5px solid rgb(29, 255, 9);
+      }
+    
+    
+      40% {
+          border:5px solid rgb(111, 1, 145);
+      }
+    
+    
+      60% {
+          border:5px solid rgb(0, 106, 138);
+      }
+    
+      80% {
+          border:5px solid rgb(255, 187, 0);
+      }
+    
+      100% {
+          border:5px solid rgb(14, 10, 255);
+      }
+    }
+    #h2-h5{
+      margin: 5% 5%;
+    }
+    #home-carousel-3-1 h2{
+      font-size: 5em;
+      animation: sandeep 7s infinite;
+    }
+    
+    @keyframes sandeep {
+      0% {
+          color: rgb(248, 11, 11);
+      }
+    
+      10% {
+          color: rgb(255, 230, 0);
+      }
+    
+      20% {
+          color: rgb(29, 255, 9);
+      }
+    
+      30% {
+          color: rgb(0, 153, 255);
+      }
+    
+      40% {
+          color: rgb(193, 5, 250);
+      }
+    
+      50% {
+          color: rgb(255, 0, 179);
+      }
+    
+      60% {
+          color: rgb(0, 195, 255);
+      }
+    
+      70% {
+          color: rgb(255, 140, 9);
+      }
+    
+      80% {
+          color: rgb(255, 187, 0);
+      }
+    
+      90% {
+          color: rgb(198, 10, 255);
+      }
+    }
+    .card{
+      margin: 10px 0px;
+    }
+    .card img{
+      height: 18rem;
+    }

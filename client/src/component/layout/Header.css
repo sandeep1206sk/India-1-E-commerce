@@ -1,0 +1,113 @@
+h1{
+    font-family: cursive;
+  }
+  .fontSize{
+    font-size: .8em;
+  }
+  .fontColor{
+    color: #000000;
+  }
+  #nav-2-2{
+    margin: 0px -12px 0px -12px;
+  }
+  /* .nav-search-box{
+    border: none;
+     width: 70%;
+  } */
+  #nav-search-button{
+    border: none;
+     width: 60px;
+  }
+  /* .nav-search{
+    border: none;
+     width: 80%;
+  } */
+  #loginCart{
+    color: rgb(250, 207, 14);
+  }
+  #nav-login-cart{
+    color: #000000;
+  }
+  #nav-1,#footer{
+    background-image: linear-gradient(135deg, rgb(223, 11, 11), rgb(4, 40, 243));
+    animation: home 5s  infinite;
+    background-size: 180% 180%;  
+  }
+  @keyframes home {
+     0% {
+        background-position: 10% 40%;
+    }
+     50% {
+        background-position: 40% 100%;
+    }
+    100% {
+        background-position: 100% 10%;
+    }
+  }
+  #nav-heading{
+    margin: 3px 0px -5px 0px;
+    font-weight: bolder;
+  }
+  #nav-para{
+    font-family: cursive;
+   font-size: .8em;
+   margin: -5px 0px 0px 0px ;
+  }
+  /* .nav-search-div{
+   margin: 25px 0px 0px 0px;
+   height: 30px;
+  } */
+  .nav-search-box{
+    height: 30px;
+    border-radius: 0px 0px 0px 15px;
+  }
+  #nav-search-button{
+    border-radius: 0px 15px 0px 0px;
+  }
+  /* #nav-login-div{
+    height: 60px;
+  } */
+  /* #nav-login-button{
+    height: 35px;
+    margin-top: -20px;
+    border: none;
+    border-radius: 5px; 
+  } */
+  
+  @media only screen and (min-width:575px) {
+    #navbar,#navbutton,#nav-search-div-s,#nav-login-div-s{
+        display: none;
+    }
+  }
+  @media only screen and (max-width:575px) {
+    #nav-search-div,#nav-login-div{
+        display: none;
+    }
+    #nav-search-div{
+        margin-left: 5%;
+    }
+    #nav-login-div{
+      margin-left: 5%;
+    }
+    #nav-h{
+    margin-bottom: -2%;
+  }
+  }
+  .nav-bottom{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+  }
+  #nav-2 ul{
+    height: fit-content;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  .nav-link{
+     margin: 0px 10px 0px 10px;
+  }
+  .nav-link:hover{
+    font-weight: bold;
+  }
